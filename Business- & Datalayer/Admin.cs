@@ -18,7 +18,7 @@ namespace Business____Datalayer
              //kod
          }
 
-         public static void UppdateraFordon
+         public static void UppdateraFordon()
          {
              //kod
          }
