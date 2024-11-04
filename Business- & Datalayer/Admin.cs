@@ -8,5 +8,20 @@ namespace Business____Datalayer
 {
     internal class Admin
     {
+        public static void LäggTillFordon()  
+        {
+            //kod
+        }
+
+         public static void TaBortFordon()
+         {
+             //kod
+         }
+
+         public static void UppdateraFordon
+         {
+             //kod
+         }
+        
     }
 }
