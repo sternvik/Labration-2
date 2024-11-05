@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    internal class Station
+    public class Station
     {
+        public int StationID { get; set; }
+        public string Namn { get; set; }
+        public List<Fordon> TillgängligaFordon { get; set; }
+
+        public Station(int id, string namn)
+        {
+            StationID = id;
+            Namn = namn;
+            TillgängligaFordon = new List<Fordon>();
+        }
+        public void LäggTillFordon(Fordon fordon)
+        {
+            TillgängligaFordon.Add(fordon);
+        }
     }
 }

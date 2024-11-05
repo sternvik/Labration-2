@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Business____Datalayer
+namespace LogicLayer
 {
-    internal class Användare
+    public class LogicService
     {
+        
+
+        
     }
 }
